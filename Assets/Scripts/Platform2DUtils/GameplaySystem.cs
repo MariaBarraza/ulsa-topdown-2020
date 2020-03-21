@@ -1,7 +1,8 @@
 namespace Platform2DUtils.GameplaySystem
 {
+    using System.Collections;
+    using System.Collections.Generic;
     using UnityEngine;
-
     public class GameplaySystem
     {
         ///<summary>
@@ -93,5 +94,29 @@ namespace Platform2DUtils.GameplaySystem
         {
             rb2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
+
+
+        //TopDown
+         
+        public static Vector2 AxisTopdown
+        {
+            get => new Vector2(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical")); 
+        }
+
+       public static void MovementTopdown(Transform t,float moveSpeed)
+        {
+             t.Translate(AxisTopdown * moveSpeed * Time.deltaTime);
+        }
+
+        
+       
+
+        public static void JumpTopdown(Transform t)
+        {
+            t.localScale =new Vector3(90.0f,90.0f,1.0f);
+        }
+
+    
+        
     }
 }

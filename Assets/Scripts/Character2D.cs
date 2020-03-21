@@ -8,7 +8,7 @@ public class Character2D : MonoBehaviour
     protected SpriteRenderer spr;
     protected Animator anim;
     protected Rigidbody2D rb2D;
-    [SerializeField, Range(1f, 10f)]
+    [SerializeField]
     protected float jumpForce = 7f; 
    
     [SerializeField]
@@ -22,6 +22,10 @@ public class Character2D : MonoBehaviour
     [SerializeField]
     LayerMask groundLayer;
     //*****************************
+
+    [SerializeField]
+    protected  bool jump = false;
+    protected bool invencible = false;
 
     void Awake()
     {
