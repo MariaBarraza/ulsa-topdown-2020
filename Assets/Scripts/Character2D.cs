@@ -21,15 +21,29 @@ public class Character2D : MonoBehaviour
     float rayDistance = 5f;
     [SerializeField]
     LayerMask groundLayer;
-    //*****************************
+    //********Jump**********
 
     [SerializeField]
     protected  bool jump = false;
     protected bool invencible = false;
 
+    protected float scale;
+   //****** Follow
+    [SerializeField]
+    protected bool isNpc;
+    protected bool moving;
+
+    [SerializeField]
+    Player leader;
+
+    [SerializeField]
+    float minDistanceFollow;
+    //********
+
+
     void Awake()
     {
-        spr = GetComponent<SpriteRenderer>();
+        //spr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         rb2D = GetComponent<Rigidbody2D>();
     }
@@ -50,4 +64,13 @@ public class Character2D : MonoBehaviour
         Gizmos.color = rayColor;
         Gizmos.DrawRay(transform.position, Vector2.down * rayDistance);
     }
+
+        public virtual void Move()
+        {
+            moving = Vector2.Distance(leader.transform.position,transform.position) > minDistanceFollow;
+            if(moving)
+            {
+                transform.position = Vector2.MoveTowards(transform.position,leader.transform.position,moveSpeed * Time.deltaTime);
+            }
+        }
 }

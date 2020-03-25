@@ -8,26 +8,45 @@ public class Player : Character2D
 {
     void Update()
     {
-       GameplaySystem.MovementTopdown(rb2D.transform,moveSpeed);
-    }
-
-    void FixedUpdate()
-    {
-        if(GameplaySystem.JumpBtn && !jump)
+       Move();
+       if(GameplaySystem.JumpBtn && !jump)
         {   
-            GameplaySystem.JumpTopdown(transform);
+            scale = 90.0f;
+            GameplaySystem.JumpTopdown(transform,scale);
             jump = true;
-            invencible = true;
+            scale=75.0f;
             StartCoroutine(JumpTime());
         }
-
         
+    }
+
+    
         IEnumerator JumpTime()
         {
             yield return new WaitForSeconds(0.5f);
-            transform.localScale =new Vector3(75.0f,75.0f,1.0f);
+            transform.localScale = new Vector3(scale,scale,1.0f);
             jump = false;
-            invencible = false;
+        }
+
+    public override void Move()
+    {
+        if(!isNpc)
+        {
+            GameplaySystem.MovementTopdown(rb2D.transform,moveSpeed);
+            moving = GameplaySystem.AxisTopdown != Vector2.zero;
+
+            if(!moving)
+            {
+                //animaciones
+            }
+
+            //animator
+            //Sprite renderer
+
+        }
+        else
+        {
+            base.Move();
         }
     }
 }

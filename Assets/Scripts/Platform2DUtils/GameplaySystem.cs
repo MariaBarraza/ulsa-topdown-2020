@@ -100,7 +100,7 @@ namespace Platform2DUtils.GameplaySystem
          
         public static Vector2 AxisTopdown
         {
-            get => new Vector2(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical")); 
+            get => new Vector2(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical")).normalized; 
         }
 
        public static void MovementTopdown(Transform t,float moveSpeed)
@@ -108,15 +108,10 @@ namespace Platform2DUtils.GameplaySystem
              t.Translate(AxisTopdown * moveSpeed * Time.deltaTime);
         }
 
-        
-       
-
-        public static void JumpTopdown(Transform t)
+        public static void JumpTopdown(Transform t,float scale)
         {
-            t.localScale =new Vector3(90.0f,90.0f,1.0f);
+            t.localScale =new Vector3(scale,scale,1.0f);
         }
-
-    
-        
+   
     }
 }
