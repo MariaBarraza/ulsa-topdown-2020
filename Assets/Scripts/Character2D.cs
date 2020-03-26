@@ -29,8 +29,6 @@ public class Character2D : MonoBehaviour
 
     protected float scale;
    //****** Follow
-    [SerializeField]
-    protected bool isNpc;
     protected bool moving;
 
     [SerializeField]
@@ -45,6 +43,8 @@ public class Character2D : MonoBehaviour
 
     [SerializeField]
     protected bool isLeader;
+     [SerializeField]
+    protected bool isNpc;
     //********
 
 
@@ -91,5 +91,11 @@ public class Character2D : MonoBehaviour
         {
             Physics2D.IgnoreCollision(other.collider,collider2D);
         }
+    }
+
+    public  Player Target
+    {
+        get => leader;
+        set => leader = value;
     }
 }
