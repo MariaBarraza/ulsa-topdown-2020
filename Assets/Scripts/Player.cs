@@ -49,4 +49,16 @@ public class Player : Character2D
             base.Move();
         }
     }
+
+    public bool IsLeader
+    {
+        get => isLeader;
+        set => isLeader = value;
+    }
+
+    public bool IsNpc
+    {
+        get => isNpc;
+        set => isNpc = value;
+    }
 }

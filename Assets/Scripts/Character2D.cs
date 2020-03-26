@@ -38,6 +38,13 @@ public class Character2D : MonoBehaviour
 
     [SerializeField]
     float minDistanceFollow;
+
+    Vector2 npcDirection;
+
+    protected Collider2D collider2D;
+
+    [SerializeField]
+    protected bool isLeader;
     //********
 
 
@@ -46,6 +53,7 @@ public class Character2D : MonoBehaviour
         //spr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         rb2D = GetComponent<Rigidbody2D>();
+        collider2D = GetComponent<Collider2D>();
     }
 
     /*protected bool FlipSprite
@@ -70,7 +78,18 @@ public class Character2D : MonoBehaviour
             moving = Vector2.Distance(leader.transform.position,transform.position) > minDistanceFollow;
             if(moving)
             {
+                //esto es para decirle a la animación hacia donde tiene que moverse
+                npcDirection = leader.transform.position - transform.position;
+                npcDirection.Normalize();
                 transform.position = Vector2.MoveTowards(transform.position,leader.transform.position,moveSpeed * Time.deltaTime);
+                //aqui va el animator
             }
         }
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.collider.CompareTag("Player"))
+        {
+            Physics2D.IgnoreCollision(other.collider,collider2D);
+        }
+    }
 }
