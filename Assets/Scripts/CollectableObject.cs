@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class CollectableObject : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    int points;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public int Points { get => points; }
 }

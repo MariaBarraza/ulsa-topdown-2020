@@ -61,4 +61,14 @@ public class Player : Character2D
         get => isNpc;
         set => isNpc = value;
     }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Collectable"))
+        {
+            CollectableObject collectable = other.GetComponent<CollectableObject>();
+            GameManager.instance.AddPoints(collectable.Points);
+            Destroy(other.gameObject);
+        }
+    }
+
 }
