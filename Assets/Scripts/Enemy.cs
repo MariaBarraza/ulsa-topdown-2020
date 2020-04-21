@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Platform2DUtils.GameplaySystem;
 
 public class Enemy : Enemy2D
 {
@@ -11,29 +12,33 @@ public class Enemy : Enemy2D
 
     void Start()
     {
-        target = GameObject.FindWithTag("Player").transform;   
+        target = GameObject.FindWithTag("Player").transform;
     }
 
     void Update()
     {
-        CheckDistance();
+        CheckDistance();   
+        if(GameObject.FindWithTag("Player") != null)
+            target = GameObject.FindWithTag("Player").transform;
     }
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        if( col.gameObject.tag == "Player" )
+        if (col.gameObject.tag == "Player")
         {
+            GameManager.instance.KillPlayer();
             Destroy(col.gameObject);
-            Debug.Log("Woof woof");
         }
     }
 
     void CheckDistance()
     {
-        if( Vector3.Distance(target.position, transform.position) <= chaseRadius
-        && Vector3.Distance(target.position, transform.position) > attackRadius) 
-        {
-            transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+        if(target)
+        {    
+            if (Vector3.Distance(target.position, transform.position) <= chaseRadius && Vector3.Distance(target.position, transform.position) > attackRadius)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+            }
         }
     }
 }
