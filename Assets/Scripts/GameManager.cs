@@ -10,6 +10,19 @@ public class GameManager : MonoBehaviour
     int score = 0;
     [SerializeField]
     Text txtScore;
+    
+    [SerializeField]
+    public Party party; 
+
+    void Start()
+    {
+        party.InitParty();
+    }
+
+    void Update()
+    {
+        party.SwapLeader();
+    }
 
     void Awake()
     {
@@ -28,5 +41,10 @@ public class GameManager : MonoBehaviour
     {
         this.score += points;
         txtScore.text = $"Score: {score} pts";
+    }
+
+    public void KillPlayer() 
+    {
+        party.KillLeader();
     }
 }

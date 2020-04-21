@@ -9,8 +9,8 @@ public class Character2D : MonoBehaviour
     protected Animator anim;
     protected Rigidbody2D rb2D;
     [SerializeField]
-    protected float jumpForce = 7f; 
-   
+    protected float jumpForce = 7f;
+
     [SerializeField]
     protected float moveSpeed = 2f;
 
@@ -24,11 +24,11 @@ public class Character2D : MonoBehaviour
     //********Jump**********
 
     [SerializeField]
-    protected  bool jump = false;
+    protected bool jump = false;
     protected bool invencible = false;
 
     protected float scale;
-   //****** Follow
+    //****** Follow
     protected bool moving;
 
     [SerializeField]
@@ -43,7 +43,7 @@ public class Character2D : MonoBehaviour
 
     [SerializeField]
     protected bool isLeader;
-     [SerializeField]
+    [SerializeField]
     protected bool isNpc;
     //********
 
@@ -73,27 +73,34 @@ public class Character2D : MonoBehaviour
         Gizmos.DrawRay(transform.position, Vector2.down * rayDistance);
     }
 
-        public virtual void Move()
-        {
-            moving = Vector2.Distance(leader.transform.position,transform.position) > minDistanceFollow;
-            if(moving)
-            {
-                //esto es para decirle a la animación hacia donde tiene que moverse
-                npcDirection = leader.transform.position - transform.position;
-                npcDirection.Normalize();
-                transform.position = Vector2.MoveTowards(transform.position,leader.transform.position,moveSpeed * Time.deltaTime);
-                //aqui va el animator
-            }
-        }
-    void OnCollisionEnter2D(Collision2D other)
+    public virtual void Move()
     {
-        if(other.collider.CompareTag("Player"))
+        if(transform.gameObject != null)
+        moving = Vector2.Distance(leader.transform.position, transform.position) > minDistanceFollow;
+        if (moving)
         {
-            Physics2D.IgnoreCollision(other.collider,collider2D);
+            //esto es para decirle a la animación hacia donde tiene que moverse
+            npcDirection = leader.transform.position - transform.position;
+            npcDirection.Normalize();
+            transform.position = Vector2.MoveTowards(transform.position, leader.transform.position, moveSpeed * Time.deltaTime);
+            //aqui va el animator
         }
     }
 
-    public  Player Target
+    protected bool FlipSprite
+    {
+        get => GameplaySystem.Axis.x < 0 ? true : GameplaySystem.Axis.x > 0 ? false : spr.flipX;
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.collider.CompareTag("Player"))
+        {
+            Physics2D.IgnoreCollision(other.collider, collider2D);
+        }
+    }
+
+    public Player Target
     {
         get => leader;
         set => leader = value;

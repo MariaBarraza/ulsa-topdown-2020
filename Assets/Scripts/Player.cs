@@ -1,41 +1,54 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using Platform2DUtils.GameplaySystem;
-
+using UnityEngine;
 
 public class Player : Character2D
 {
+   // Animator anim;
+   // SpriteRenderer sprite;
+        
     void Update()
     {
-       Move();
-       if(GameplaySystem.JumpBtn && !jump)
-        {   
+        if(transform.gameObject != null)
+            Move();
+        if (GameplaySystem.JumpBtn && !jump)
+        {
             scale = 90.0f;
-            GameplaySystem.JumpTopdown(transform,scale);
+            GameplaySystem.JumpTopdown(transform, scale);
             jump = true;
-            scale=75.0f;
+            scale = 75.0f;
             StartCoroutine(JumpTime());
         }
-        
+
     }
 
-    
-        IEnumerator JumpTime()
-        {
-            yield return new WaitForSeconds(0.5f);
-            transform.localScale = new Vector3(scale,scale,1.0f);
-            jump = false;
-        }
+    IEnumerator JumpTime()
+    {
+        yield return new WaitForSeconds(0.5f);
+        transform.localScale = new Vector3(scale, scale, 1.0f);
+        jump = false;
+    }
+/*
+    void LateUpdate()
+    {
+        spr.flipX = FlipSprite;
+    }
 
+    void FixedUpdate()
+    {
+        anim = GetComponent<Animator>();
+        sprite = GetComponent<SpriteRenderer>();
+    }
+*/
     public override void Move()
     {
-        if(!isNpc)
+        if (!isNpc)
         {
-            GameplaySystem.MovementTopdown(rb2D.transform,moveSpeed);
+            GameplaySystem.MovementTopdown(rb2D.transform, moveSpeed);
             moving = GameplaySystem.AxisTopdown != Vector2.zero;
 
-            if(!moving)
+            if (!moving)
             {
                 //animaciones
             }
@@ -48,6 +61,7 @@ public class Player : Character2D
         {
             base.Move();
         }
+
     }
 
     public bool IsLeader
