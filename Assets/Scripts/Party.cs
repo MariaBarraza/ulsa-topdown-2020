@@ -48,7 +48,7 @@ public class Party
 
     public void SwapLeader()
     {
-        if (Input.GetButtonDown("ChangeLeader"))
+        if (Input.GetButtonDown("ChangeLeader") && currentParty.Count > 1)
         {
             Player currentLeader = currentParty[0];
             currentLeader.IsLeader = false;
