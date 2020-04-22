@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: walk-front
+  m_Name: enemyDown
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,10 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 6566134775046111451, guid: 0377b6de628a49a45a6bf23b85575e3b,
+      value: {fileID: 8596640243658272642, guid: 3342fc0d5c9e2bb47abf464e676316b3,
         type: 3}
     - time: 0.016666668
-      value: {fileID: -2592078171534334363, guid: 0377b6de628a49a45a6bf23b85575e3b,
+      value: {fileID: -7642239419928554605, guid: 3342fc0d5c9e2bb47abf464e676316b3,
+        type: 3}
+    - time: 0.033333335
+      value: {fileID: -3876759189950653258, guid: 3342fc0d5c9e2bb47abf464e676316b3,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -44,14 +47,15 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 6566134775046111451, guid: 0377b6de628a49a45a6bf23b85575e3b, type: 3}
-    - {fileID: -2592078171534334363, guid: 0377b6de628a49a45a6bf23b85575e3b, type: 3}
+    - {fileID: 8596640243658272642, guid: 3342fc0d5c9e2bb47abf464e676316b3, type: 3}
+    - {fileID: -7642239419928554605, guid: 3342fc0d5c9e2bb47abf464e676316b3, type: 3}
+    - {fileID: -3876759189950653258, guid: 3342fc0d5c9e2bb47abf464e676316b3, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.033333335
+    m_StopTime: 0.050000004
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
