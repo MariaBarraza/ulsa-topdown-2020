@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using Platform2DUtils.GameplaySystem;
+using Cinemachine;
 
 [Serializable]
 
@@ -57,7 +58,6 @@ public class Party
             currentParty.RemoveAt(0);
             currentLeader.gameObject.tag = "NPC";
             currentParty.Add(currentLeader);
-            
             currentParty[0].gameObject.tag = "Player";
             currentParty[0].IsLeader = true;
             currentParty[0].IsNpc = false;

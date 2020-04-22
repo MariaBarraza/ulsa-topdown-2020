@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Platform2DUtils.GameplaySystem;
+using Cinemachine;
 
 public class Character2D : MonoBehaviour
 {

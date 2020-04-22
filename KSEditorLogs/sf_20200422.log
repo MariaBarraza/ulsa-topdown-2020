@@ -1,0 +1,56 @@
+2020-04-22 00:38:45.6081 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-22 00:39:12.1468 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-22 00:39:12.8714 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-22 00:40:38.0316 [DEBUG] Play mode: False
+2020-04-22 00:40:41.5052 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-22 00:40:41.6678 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-22 00:40:57.8210 [DEBUG] Play mode: False
+2020-04-22 00:41:56.6184 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-22 00:42:00.0322 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-22 00:42:00.1718 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-22 00:42:07.3515 [DEBUG] Play mode: False
+2020-04-22 00:42:53.0801 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-22 00:55:41.3224 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-22 00:58:39.2019 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-22 00:58:50.5078 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-22 00:58:50.6654 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-22 00:58:54.2578 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+Party.SwapLeader () (at Assets/Scripts/Party.cs:62)
+GameManager.Update () (at Assets/Scripts/GameManager.cs:26)
+
+2020-04-22 00:58:57.0992 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+Party.SwapLeader () (at Assets/Scripts/Party.cs:62)
+GameManager.Update () (at Assets/Scripts/GameManager.cs:26)
+
+2020-04-22 01:02:18.3977 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-22 01:02:19.4915 [DEBUG] Play mode: False
+2020-04-22 01:02:22.2654 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-22 01:02:22.4355 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-22 01:02:26.0703 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+Party.SwapLeader () (at Assets/Scripts/Party.cs:62)
+GameManager.Update () (at Assets/Scripts/GameManager.cs:26)
+
+2020-04-22 01:02:36.6942 [DEBUG] Play mode: False
+2020-04-22 01:02:56.9075 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-22 01:03:00.5780 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-22 01:03:00.7242 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-22 01:03:01.8319 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+Party.SwapLeader () (at Assets/Scripts/Party.cs:62)
+GameManager.Update () (at Assets/Scripts/GameManager.cs:26)
+
+2020-04-22 01:03:04.2640 [DEBUG] Play mode: False
+2020-04-22 01:06:16.7886 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-22 01:06:20.3331 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-22 01:06:20.4744 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-22 01:06:21.4537 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+Party.SwapLeader () (at Assets/Scripts/Party.cs:62)
+GameManager.Update () (at Assets/Scripts/GameManager.cs:26)
+
+2020-04-22 01:06:29.6159 [DEBUG] Play mode: False
+2020-04-22 01:09:44.6160 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-22 01:09:58.5961 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-22 01:11:00.1080 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-22 01:11:22.9149 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-22 01:11:23.0675 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-22 01:11:38.0600 [DEBUG] Play mode: False
+2020-04-22 01:11:50.3166 [DEBUG] Scene Fusion version 1.8.7-0
