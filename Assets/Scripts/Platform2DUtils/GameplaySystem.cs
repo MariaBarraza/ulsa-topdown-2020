@@ -111,7 +111,7 @@ namespace Platform2DUtils.GameplaySystem
 
        public static void MovementTopdown(Transform t,float moveSpeed)
         {
-             t.Translate(AxisTopdown * moveSpeed * Time.deltaTime);
+             t.Translate(AxisTopdown * moveSpeed * Time.deltaTime, Space.World);
         }
 
         public static void JumpTopdown(Transform t,float scale)
