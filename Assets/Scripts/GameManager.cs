@@ -26,19 +26,6 @@ public class GameManager : MonoBehaviour
         party.SwapLeader();
     }
 
-    [SerializeField]
-    public Party party;
-
-    void Start()
-    {
-        party.InitParty();
-    }
-
-    void Update()
-    {
-        party.SwapLeader();
-    }
-
     void Awake()
     {
         if (instance)
