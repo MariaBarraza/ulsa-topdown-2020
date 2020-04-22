@@ -10,6 +10,8 @@ public class Enemy : Enemy2D
     public float attackRadius;
     public Transform homePosition;
 
+    float actualSpeed;
+
     void Start()
     {
         target = GameObject.FindWithTag("Player").transform;
@@ -22,12 +24,16 @@ public class Enemy : Enemy2D
             target = GameObject.FindWithTag("Player").transform;
     }
 
-    void OnCollisionEnter2D(Collision2D col)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (col.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
             GameManager.instance.KillPlayer();
-            Destroy(col.gameObject);
+            Destroy(other.gameObject);
+            transform.position = new Vector2(transform.position.x-50.0f,transform.position.y);
+            actualSpeed = moveSpeed;
+            moveSpeed = 50.0f;
+            StartCoroutine(waitEnemy());
         }
     }
 
@@ -40,5 +46,12 @@ public class Enemy : Enemy2D
                 transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
             }
         }
+    }
+
+    IEnumerator waitEnemy()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        moveSpeed = actualSpeed;
     }
 }
