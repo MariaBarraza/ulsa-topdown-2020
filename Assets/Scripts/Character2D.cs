@@ -54,7 +54,7 @@ public class Character2D : MonoBehaviour
    
     void Update()
     {
-        anim.SetBool("moving", moving);
+           anim.SetBool("moving", moving);
     }
 
     void Awake()

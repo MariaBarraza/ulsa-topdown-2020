@@ -50,7 +50,7 @@ public class Enemy : Enemy2D
 
     IEnumerator waitEnemy()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(500.0f);
 
         moveSpeed = actualSpeed;
     }
