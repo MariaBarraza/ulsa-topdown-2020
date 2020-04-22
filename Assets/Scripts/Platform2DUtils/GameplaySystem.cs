@@ -106,7 +106,7 @@ namespace Platform2DUtils.GameplaySystem
         // TopDown
         public static Vector2 AxisTopdown
         {
-            get => new Vector2(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical")).normalized; 
+            get => new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")).normalized; 
         }
 
        public static void MovementTopdown(Transform t,float moveSpeed)
