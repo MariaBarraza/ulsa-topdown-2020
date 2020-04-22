@@ -3,7 +3,7 @@ namespace Platform2DUtils.GameplaySystem
     using System.Collections;
     using System.Collections.Generic;
     using UnityEngine;
-    public class GameplaySystem
+    public class GameplaySystem : MonoBehaviour
     {
         ///<summary>
         /// Returns a Vector2 with Horizontal and Vertical axes.
@@ -90,14 +90,20 @@ namespace Platform2DUtils.GameplaySystem
             get => Input.GetButtonDown("Jump");
         }
 
+        ///<summary>
+        /// Returns an array of players (and NPCs)
+        ///</summary>
+        public static Player[] FindPlayer 
+        {
+            get => FindObjectsOfType(typeof(Player)) as Player[];
+        } 
+
         public static void Jump(Rigidbody2D rb2D, float jumpForce)
         {
             rb2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
 
-
-        //TopDown
-         
+        // TopDown
         public static Vector2 AxisTopdown
         {
             get => new Vector2(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical")).normalized; 
@@ -112,6 +118,5 @@ namespace Platform2DUtils.GameplaySystem
         {
             t.localScale =new Vector3(scale,scale,1.0f);
         }
-   
     }
 }

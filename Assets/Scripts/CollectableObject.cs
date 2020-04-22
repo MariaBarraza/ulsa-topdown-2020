@@ -8,4 +8,5 @@ public class CollectableObject : MonoBehaviour
     int points;
 
     public int Points { get => points; }
+
 }

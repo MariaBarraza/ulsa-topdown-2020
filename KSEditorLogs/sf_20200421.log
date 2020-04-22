@@ -1,0 +1,530 @@
+2020-04-21 11:37:07.2034 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 11:38:45.3122 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 11:38:45.4568 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 11:39:14.1929 [DEBUG] Play mode: False
+2020-04-21 11:50:00.4783 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 11:50:00.6576 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 11:50:11.8708 [DEBUG] Play mode: False
+2020-04-21 11:50:15.4920 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 11:50:15.6398 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 11:50:34.2606 [DEBUG] Play mode: False
+2020-04-21 12:09:20.6620 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 12:09:20.8290 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 12:10:13.4819 [DEBUG] Play mode: False
+2020-04-21 12:20:40.2024 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 12:20:40.4144 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 12:20:49.5416 [DEBUG] Play mode: False
+2020-04-21 12:21:34.5114 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 12:21:34.7600 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 12:21:43.4490 [DEBUG] Play mode: False
+2020-04-21 12:22:00.1068 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 12:22:00.3810 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 12:22:07.8394 [DEBUG] Play mode: False
+2020-04-21 12:24:20.9479 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 12:24:21.1349 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 12:24:27.4201 [DEBUG] Play mode: False
+2020-04-21 12:27:47.8770 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 12:27:48.0720 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 12:27:54.2316 [DEBUG] Play mode: False
+2020-04-21 12:28:04.5360 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 12:28:04.7362 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 12:28:11.1781 [DEBUG] Play mode: False
+2020-04-21 12:28:21.0938 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 12:28:21.2874 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 12:28:38.6813 [DEBUG] Play mode: False
+2020-04-21 12:32:31.3630 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 12:32:31.5060 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 12:32:38.0695 [DEBUG] Play mode: False
+2020-04-21 12:49:32.1778 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 12:49:32.3629 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 12:49:37.6837 [DEBUG] Play mode: False
+2020-04-21 12:49:44.0451 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 12:49:44.2341 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 12:49:54.9589 [DEBUG] Play mode: False
+2020-04-21 12:50:26.1608 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 12:50:26.3618 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 12:50:28.8785 [DEBUG] Play mode: False
+2020-04-21 12:52:52.3814 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 12:52:52.5842 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 12:52:57.6515 [DEBUG] Play mode: False
+2020-04-21 12:54:33.6489 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 12:54:33.8439 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 12:54:55.0050 [DEBUG] Play mode: False
+2020-04-21 12:56:30.6610 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 12:56:30.8506 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 12:56:57.8007 [DEBUG] Play mode: False
+2020-04-21 12:58:55.4793 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 12:58:55.6468 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 12:58:56.3485 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:43)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 12:58:57.0185 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:43)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 12:58:59.5116 [DEBUG] Play mode: False
+2020-04-21 13:02:36.6065 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:02:40.2266 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:02:40.3758 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:02:47.3420 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:43)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:02:52.3698 [DEBUG] Play mode: False
+2020-04-21 13:03:22.5079 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:03:28.2172 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:03:28.3793 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:03:29.0433 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:43)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:03:29.6753 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:43)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:03:34.2533 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:43)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:03:47.1966 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:43)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:03:57.0525 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:43)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:03:58.4063 [DEBUG] Play mode: False
+2020-04-21 13:06:49.6659 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:06:49.9059 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:07:04.6298 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:43)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:07:05.1108 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:43)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:07:05.6181 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:43)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:07:06.3293 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:43)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:07:06.5493 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:43)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:07:47.9214 [DEBUG] Play mode: False
+2020-04-21 13:09:10.9683 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:09:11.1618 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:09:29.4746 [DEBUG] Play mode: False
+2020-04-21 13:11:24.7084 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:11:24.8955 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:11:25.0310 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:43)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:11:26.9514 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:43)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:11:29.5314 [DEBUG] Play mode: False
+2020-04-21 13:12:04.8170 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:12:11.4448 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:12:11.6108 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:12:11.8485 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:44)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:12:27.2992 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:12:29.2443 [DEBUG] Play mode: False
+2020-04-21 13:16:01.3671 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:16:01.5437 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:16:04.9037 [DEBUG] Play mode: False
+2020-04-21 13:16:11.8851 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:16:12.0681 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:16:12.8412 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:43)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:16:17.7464 [DEBUG] Play mode: False
+2020-04-21 13:17:48.0885 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:17:48.2596 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:17:48.8376 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:43)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:17:50.3316 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:43)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:17:50.8306 [DEBUG] Play mode: False
+2020-04-21 13:17:55.7845 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:17:55.9515 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:17:57.9873 [DEBUG] Play mode: False
+2020-04-21 13:18:13.0102 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:18:13.1872 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:18:14.2088 [DEBUG] Play mode: False
+2020-04-21 13:18:20.8078 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:18:21.0124 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:18:22.7898 [DEBUG] Play mode: False
+2020-04-21 13:18:53.7335 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:18:53.9255 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:18:54.0655 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:43)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:18:59.4308 [DEBUG] Play mode: False
+2020-04-21 13:21:52.6954 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:23:05.5672 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:23:05.7413 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:23:06.8670 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:45)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:23:08.9696 [DEBUG] Play mode: False
+2020-04-21 13:25:04.3689 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:25:04.5179 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:25:05.8455 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:45)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:25:06.6012 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:45)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:25:08.4817 [DEBUG] Play mode: False
+2020-04-21 13:35:10.6400 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:35:10.8224 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:35:10.9585 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:45)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:35:12.9474 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:45)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:35:14.4765 [DEBUG] Play mode: False
+2020-04-21 13:35:24.0715 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:35:24.2700 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:35:24.6145 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:45)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:35:26.2652 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:45)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:35:27.3769 [DEBUG] Play mode: False
+2020-04-21 13:37:34.3071 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:37:37.7365 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:37:37.8985 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:37:44.0206 [DEBUG] Play mode: False
+2020-04-21 13:38:15.4141 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:38:18.4216 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:38:18.5656 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:38:39.8586 [DEBUG] Play mode: False
+2020-04-21 13:39:30.0887 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:39:33.0497 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:39:33.1897 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:39:39.0506 [DEBUG] Play mode: False
+2020-04-21 13:40:12.5713 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:45:19.3202 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:45:19.4702 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:45:21.6355 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:46)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:45:22.1351 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:46)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:45:26.1498 [DEBUG] Play mode: False
+2020-04-21 13:47:07.1918 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:54:20.0133 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:54:25.8994 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:54:26.0618 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:54:26.2818 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+GameManager.AddPoints (System.Int32 points) (at Assets/Scripts/GameManager.cs:45)
+Player.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Scripts/Player.cs:83)
+
+2020-04-21 13:54:27.9212 [DEBUG] Play mode: False
+2020-04-21 13:59:25.5279 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 13:59:25.6999 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 13:59:29.1927 [DEBUG] Play mode: False
+2020-04-21 16:22:32.0817 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 16:23:29.3222 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 16:23:29.5122 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 16:23:46.3581 [DEBUG] Play mode: False
+2020-04-21 16:25:53.3406 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 16:25:53.6013 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 16:26:01.3643 [DEBUG] Play mode: False
+2020-04-21 17:00:22.7137 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:05:00.5743 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:09:01.0834 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:09:08.6215 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:09:08.8105 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:09:16.0593 [DEBUG] Play mode: False
+2020-04-21 17:09:29.1036 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:09:29.3463 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:09:37.2013 [DEBUG] Play mode: False
+2020-04-21 17:10:04.3043 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:10:04.5473 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:10:10.1340 [DEBUG] Play mode: False
+2020-04-21 17:10:30.9173 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:10:31.1993 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:10:38.5648 [DEBUG] Play mode: False
+2020-04-21 17:12:04.7660 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:12:08.4600 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:12:08.6734 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:12:18.0989 [DEBUG] Play mode: False
+2020-04-21 17:16:45.7933 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:16:50.0502 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:16:50.3302 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:17:00.7435 [DEBUG] Play mode: False
+2020-04-21 17:17:26.1176 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:17:26.3566 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:17:32.7984 [DEBUG] Play mode: False
+2020-04-21 17:20:36.5250 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:22:01.2346 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:22:01.4866 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:22:19.2632 [DEBUG] Play mode: False
+2020-04-21 17:22:57.9367 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:22:58.1938 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:23:04.9512 [DEBUG] Play mode: False
+2020-04-21 17:26:06.7481 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:26:06.9642 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:26:20.5630 [DEBUG] Play mode: False
+2020-04-21 17:27:52.1745 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:27:52.4595 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:28:01.0886 [DEBUG] Play mode: False
+2020-04-21 17:28:12.7544 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:28:12.9924 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:28:27.6238 [DEBUG] Play mode: False
+2020-04-21 17:28:41.5598 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:28:41.7968 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:28:49.7963 [DEBUG] Play mode: False
+2020-04-21 17:29:26.0872 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:29:26.3247 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:29:41.3285 [DEBUG] Play mode: False
+2020-04-21 17:29:50.3282 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:29:50.5753 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:29:59.0076 [DEBUG] Play mode: False
+2020-04-21 17:30:25.1214 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:30:25.3264 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:30:40.2007 [DEBUG] Play mode: False
+2020-04-21 17:30:47.3192 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:30:47.4968 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:31:01.0688 [DEBUG] Play mode: False
+2020-04-21 17:31:12.2061 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:31:12.4032 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:31:20.5629 [DEBUG] Play mode: False
+2020-04-21 17:31:30.5198 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:31:30.7309 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:31:44.2287 [DEBUG] Play mode: False
+2020-04-21 17:31:59.5088 [INFO] Launching Session: level01
+2020-04-21 17:32:00.4883 [DEBUG] Connecting
+2020-04-21 17:32:00.5436 [DEBUG] Connecting to room (122602:SceneFusion:SceneFusion) via TCP at roommanager-ec2-35-164-71-216.kinematicsoup.com:21312
+2020-04-21 17:32:07.1553 [DEBUG] Sent D:/Productivity/ULSA/Videogames/ulsa-topdown-2020/KSEditorLogs/SessionLogs/session.122602-637230871205887861.log
+2020-04-21 17:32:15.1424 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:32:15.3644 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:32:23.1130 [DEBUG] Play mode: False
+2020-04-21 17:33:04.7101 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:33:04.9351 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:33:11.4661 [DEBUG] Play mode: False
+2020-04-21 17:33:24.9317 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:33:25.1239 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:33:34.7737 [DEBUG] Play mode: False
+2020-04-21 17:34:15.3615 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:34:15.5705 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:34:17.7831 [DEBUG] Play mode: False
+2020-04-21 17:34:26.6496 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:34:26.8767 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:34:37.1403 [DEBUG] Play mode: False
+2020-04-21 17:36:30.1104 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:36:30.3725 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:36:40.1189 [DEBUG] Play mode: False
+2020-04-21 17:37:31.2616 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:54:02.4212 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:54:10.7644 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:54:10.9424 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:54:12.7941 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:12.8051 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:12.8221 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:12.8381 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:12.8551 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:12.8811 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:12.8981 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:12.9161 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:12.9331 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:12.9512 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:12.9672 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:12.9852 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:13.0012 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:13.0182 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:13.0352 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:13.0532 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:13.0692 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:13.0867 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:13.1027 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:13.1197 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:13.1357 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:13.1530 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:13.1690 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:13.1960 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:13.2130 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:13.2300 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:13.2470 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:13.2650 [ERROR] MissingReferenceException: The object of type 'Player' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Character2D.Move () (at Assets/Scripts/Character2D.cs:78)
+Player.Move () (at Assets/Scripts/Player.cs:49)
+Player.Update () (at Assets/Scripts/Player.cs:11)
+
+2020-04-21 17:54:13.4480 [DEBUG] Play mode: False
+2020-04-21 17:55:13.5277 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:55:28.7599 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:55:28.9869 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:55:34.8403 [DEBUG] Play mode: False
+2020-04-21 17:55:39.5756 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-21 17:55:39.7611 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-21 17:55:45.3792 [DEBUG] Play mode: False
