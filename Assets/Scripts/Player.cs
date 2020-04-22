@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class Player : Character2D
 {
+   // Animator anim;
+   // SpriteRenderer sprite;
+        
     void Update()
     {
         if(transform.gameObject != null)

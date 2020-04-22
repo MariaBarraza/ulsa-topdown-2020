@@ -1,0 +1,80 @@
+2020-04-20 19:27:23.9068 [DEBUG] Validating model...
+2020-04-20 19:27:23.9878 [DEBUG] Model validated
+2020-04-20 19:27:23.9908 [DEBUG] Authenticating with server...
+2020-04-20 19:27:24.5138 [DEBUG] Connected to room. (122582:SceneFusion:SceneFusion)
+2020-04-20 19:27:24.5238 [INFO] Connected to server.
+2020-04-20 19:27:24.5278 [DEBUG] OS : Microsoft Windows NT 10.0.18363.0
+2020-04-20 19:27:24.5288 [DEBUG] Unity Version : 2019.2.19f1
+2020-04-20 19:27:24.5298 [DEBUG] Pro License : False
+2020-04-20 19:27:24.5308 [DEBUG] Platform : WindowsEditor
+2020-04-20 19:27:24.5308 [DEBUG] Build Target : StandaloneWindows64
+2020-04-20 19:27:24.5318 [DEBUG] Scene Fusion version : 1.8.7
+2020-04-20 19:27:24.5368 [DEBUG] Scene Fusion client build : 0
+2020-04-20 19:27:24.5378 [DEBUG] User : joseatrejos@hotmail.com
+2020-04-20 19:27:24.5378 [DEBUG] Waiting for server response
+2020-04-20 19:27:24.6148 [DEBUG] Tier: Free, Permissions: 00000200
+2020-04-20 19:27:24.6148 [DEBUG] User Permissions: FFFFFFFF
+2020-04-20 19:27:25.3389 [DEBUG] No stand-in for UnityEngine.LocalizationAsset
+2020-04-20 19:27:25.3389 [DEBUG] No stand-in for UnityEngine.ProceduralMaterial
+2020-04-20 19:27:25.3399 [DEBUG] No stand-in for UnityEngine.ProceduralTexture
+2020-04-20 19:27:25.3399 [DEBUG] No stand-in for UnityEngine.TerrainLayer
+2020-04-20 19:27:25.3399 [DEBUG] No stand-in for UnityEngine.Experimental.VFX.VisualEffectAsset
+2020-04-20 19:27:26.0935 [DEBUG] Uploading scene 'level01'
+2020-04-20 19:27:26.3121 [DEBUG] Spawn request. (Objects: 9)
+2020-04-20 19:27:26.5756 [DEBUG] Loading complete
+2020-04-20 19:27:34.5934 [DEBUG] Spawn request. (Objects: 1)
+2020-04-20 19:29:01.7830 [DEBUG] Disconnecting temporarily to enter play mode.
+2020-04-20 19:29:01.7840 [DEBUG] Disconnecting from room (122582:SceneFusion:SceneFusion)
+2020-04-20 19:29:01.7930 [INFO] Disconnected from server.
+2020-04-20 19:29:01.7940 [DEBUG] Disconnect. (Duration: 97)
+2020-04-20 19:29:01.8310 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2020-04-20 19:29:06.8010 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-20 19:29:07.1591 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-20 19:29:07.4441 [DEBUG] Connecting to room (122582:SceneFusion:SceneFusion) via TCP at roommanager-ec2-35-164-71-216.kinematicsoup.com:21312
+2020-04-20 19:29:07.4761 [DEBUG] Host connection. (Session: 122582)
+2020-04-20 19:29:09.0399 [DEBUG] Validating model...
+2020-04-20 19:29:09.9412 [DEBUG] Model validated
+2020-04-20 19:29:09.9422 [DEBUG] Authenticating with server...
+2020-04-20 19:29:10.0982 [DEBUG] Connected to room. (122582:SceneFusion:SceneFusion)
+2020-04-20 19:29:10.1212 [INFO] Connected to server.
+2020-04-20 19:29:10.1232 [DEBUG] OS : Microsoft Windows NT 10.0.18363.0
+2020-04-20 19:29:10.1242 [DEBUG] Unity Version : 2019.2.19f1
+2020-04-20 19:29:10.1242 [DEBUG] Pro License : False
+2020-04-20 19:29:10.1252 [DEBUG] Platform : WindowsEditor
+2020-04-20 19:29:10.1252 [DEBUG] Build Target : StandaloneWindows64
+2020-04-20 19:29:10.1252 [DEBUG] Scene Fusion version : 1.8.7
+2020-04-20 19:29:10.1252 [DEBUG] Scene Fusion client build : 0
+2020-04-20 19:29:10.1262 [DEBUG] User : joseatrejos@hotmail.com
+2020-04-20 19:29:10.2772 [DEBUG] Tier: Free, Permissions: 00000200
+2020-04-20 19:29:10.2772 [DEBUG] User Permissions: FFFFFFFF
+2020-04-20 19:29:10.4423 [DEBUG] No stand-in for UnityEngine.LocalizationAsset
+2020-04-20 19:29:10.4423 [DEBUG] No stand-in for UnityEngine.ProceduralMaterial
+2020-04-20 19:29:10.4432 [DEBUG] No stand-in for UnityEngine.ProceduralTexture
+2020-04-20 19:29:10.4432 [DEBUG] No stand-in for UnityEngine.TerrainLayer
+2020-04-20 19:29:10.4432 [DEBUG] No stand-in for UnityEngine.Experimental.VFX.VisualEffectAsset
+2020-04-20 19:29:13.5689 [DEBUG] Play mode: False
+2020-04-20 19:29:13.8156 [DEBUG] Loading complete
+2020-04-20 19:29:15.5525 [DEBUG] Spawn request. (Objects: 1)
+2020-04-20 19:29:43.1500 [DEBUG] Disconnecting temporarily to enter play mode.
+2020-04-20 19:29:43.1520 [DEBUG] Disconnecting from room (122582:SceneFusion:SceneFusion)
+2020-04-20 19:29:43.1730 [INFO] Disconnected from server.
+2020-04-20 19:29:43.1740 [DEBUG] Disconnect. (Duration: -41)
+2020-04-20 19:29:43.2230 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2020-04-20 19:29:49.3731 [DEBUG] Scene Fusion version 1.8.7-0
+2020-04-20 19:29:49.7537 [DEBUG] Play mode: True, sync in play mode: False
+2020-04-20 19:29:50.0958 [DEBUG] Connecting to room (122582:SceneFusion:SceneFusion) via TCP at roommanager-ec2-35-164-71-216.kinematicsoup.com:21312
+2020-04-20 19:29:50.1218 [DEBUG] Host connection. (Session: 122582)
+2020-04-20 19:29:50.7324 [DEBUG] Connection failed. (122582:SceneFusion:SceneFusion)
+2020-04-20 19:29:50.7774 [WARNING] Connection failed: RESET, retrying...
+2020-04-20 19:29:52.7037 [DEBUG] Connecting to room (122582:SceneFusion:SceneFusion) via TCP at roommanager-ec2-35-164-71-216.kinematicsoup.com:443
+2020-04-20 19:29:52.9377 [DEBUG] Connection failed. (122582:SceneFusion:SceneFusion)
+2020-04-20 19:29:52.9848 [WARNING] Connection failed: RESET, retrying...
+2020-04-20 19:29:52.9867 [WARNING] Connection failed: RESET, retrying...
+2020-04-20 19:29:54.9169 [DEBUG] Connecting to room (122582:SceneFusion:SceneFusion) via TCP at roommanager-ec2-35-164-71-216.kinematicsoup.com:80
+2020-04-20 19:29:55.2489 [DEBUG] Connection failed. (122582:SceneFusion:SceneFusion)
+2020-04-20 19:29:55.2969 [WARNING] Connection failed: RESET, retrying...
+2020-04-20 19:29:55.2979 [WARNING] Connection failed: RESET, retrying...
+2020-04-20 19:29:55.2979 [WARNING] Connection failed: RESET, retrying...
+2020-04-20 19:29:57.2431 [DEBUG] Connecting to room (122582:SceneFusion:SceneFusion) via TCP at roommanager-ec2-35-164-71-216.kinematicsoup.com:21312
+2020-04-20 19:29:57.5471 [DEBUG] Connection failed. (122582:SceneFusion:SceneFusion)
+2020-04-20 19:29:57.5921 [ERROR] Connection failed: RESET

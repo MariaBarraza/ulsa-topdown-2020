@@ -12,6 +12,19 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     Text txtScore;
+    
+    [SerializeField]
+    public Party party; 
+
+    void Start()
+    {
+        party.InitParty();
+    }
+
+    void Update()
+    {
+        party.SwapLeader();
+    }
 
     [SerializeField]
     public Party party;
