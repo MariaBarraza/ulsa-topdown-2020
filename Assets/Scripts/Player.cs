@@ -42,6 +42,7 @@ public class Player : Character2D
                 //animaciones
                 anim.SetFloat("moveX", GameplaySystem.AxisTopdown.x);
                 anim.SetFloat("moveY", GameplaySystem.AxisTopdown.y);
+                spr.flipX = FlipSprite;
             }
 
             //animator

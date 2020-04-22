@@ -30,7 +30,7 @@ public class Enemy : Enemy2D
         {
             GameManager.instance.KillPlayer();
             Destroy(other.gameObject);
-            transform.position = new Vector2(transform.position.x-50.0f,transform.position.y);
+            transform.position = new Vector2(transform.position.x,transform.position.y-150.0f);
             actualSpeed = moveSpeed;
             moveSpeed = 50.0f;
             StartCoroutine(waitEnemy());
@@ -50,7 +50,7 @@ public class Enemy : Enemy2D
 
     IEnumerator waitEnemy()
     {
-        yield return new WaitForSeconds(500.0f);
+        yield return new WaitForSeconds(0.5f);
 
         moveSpeed = actualSpeed;
     }

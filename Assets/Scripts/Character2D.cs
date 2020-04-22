@@ -60,6 +60,7 @@ public class Character2D : MonoBehaviour
     void Awake()
     {
         anim = GetComponent<Animator>();
+        spr = GetComponent<SpriteRenderer>();
         rb2D = GetComponent<Rigidbody2D>();
         collider2D = GetComponent<Collider2D>();
     }
@@ -90,6 +91,8 @@ public class Character2D : MonoBehaviour
             //aqui va el animator
             anim.SetFloat("moveX", npcDirection.x);
             anim.SetFloat("moveY", npcDirection.y);
+
+            spr.flipX = FlipSprite;
         }
         
         
@@ -97,7 +100,7 @@ public class Character2D : MonoBehaviour
 
     protected bool FlipSprite
     {
-        get => GameplaySystem.Axis.x < 0 ? true : GameplaySystem.Axis.x > 0 ? false : spr.flipX;
+        get => GameplaySystem.AxisTopdown.x < 0 ? true : GameplaySystem.AxisTopdown.x > 0 ? false : spr.flipX;
     }
 
     void OnCollisionEnter2D(Collision2D other)
