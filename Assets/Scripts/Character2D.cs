@@ -51,10 +51,9 @@ public class Character2D : MonoBehaviour
     protected bool isNpc;
     //********
 
-   
     void Update()
     {
-           anim.SetBool("moving", moving);
+        anim.SetBool("moving", moving);
     }
 
     void Awake()
@@ -70,7 +69,7 @@ public class Character2D : MonoBehaviour
         get => Physics2D.Raycast(transform.position, Vector2.down, rayDistance, groundLayer);
     }
 
-    //Drawing raycast
+    // Drawing raycast
     void OnDrawGizmosSelected()
     {
         Gizmos.color = rayColor;

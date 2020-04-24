@@ -19,7 +19,7 @@ public class Enemy : Enemy2D
 
     void Update()
     {
-        CheckDistance();   
+        GameplaySystem.CheckDistance(transform, target, chaseRadius, moveSpeed);   
         if(GameObject.FindWithTag("Player") != null)
             target = GameObject.FindWithTag("Player").transform;
     }
@@ -34,17 +34,6 @@ public class Enemy : Enemy2D
             actualSpeed = moveSpeed;
             moveSpeed = 50.0f;
             StartCoroutine(waitEnemy());
-        }
-    }
-
-    void CheckDistance()
-    {
-        if(target)
-        {    
-            if (Vector3.Distance(target.position, transform.position) <= chaseRadius && Vector3.Distance(target.position, transform.position) > attackRadius)
-            {
-                transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
-            }
         }
     }
 

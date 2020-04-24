@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.ulsa.platform2d-utils-package": "https://github.com/jfcarocota/platform2d-utils-package.git",
+    "com.ulsa.platform2d-utils-package": "https://github.com/joseatrejos/platform2d-utils-package.git",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.cinemachine": "2.5.0",
     "com.unity.collab-proxy": "1.2.16",

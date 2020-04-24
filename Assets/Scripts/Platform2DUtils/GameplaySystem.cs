@@ -98,25 +98,62 @@ namespace Platform2DUtils.GameplaySystem
             get => FindObjectsOfType(typeof(Player)) as Player[];
         } 
 
+
+        ///<summary>
+        /// Moves player in the Vertical Axis with keyboard inputs using impulse
+        /// <param name="jumpForce"></param>
+        /// <param name="rb2D">Rigidbody Component of the gameObject</param>
+        ///</summary>
         public static void Jump(Rigidbody2D rb2D, float jumpForce)
         {
             rb2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
 
-        // TopDown
+        ///<summary>
+        /// Returns a normalized Vector2 with Horizontal and Vertical axes.
+        ///</summary>
         public static Vector2 AxisTopdown
         {
             get => new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")).normalized; 
         }
 
+        ///<summary>
+        /// Moves player in Horizontal and Vertial axis with keyboard inputs.
+        ///</summary>
+        ///<param name="t">Transform component of the player</param>
+        ///<param name="moveSpeed">The coeficient of speed</param>
        public static void MovementTopdown(Transform t,float moveSpeed)
         {
              t.Translate(AxisTopdown * moveSpeed * Time.deltaTime, Space.World);
         }
 
+        ///<summary>
+        /// Makes the player jump in a topdown game by moving him/her in the Z axis and altering its
+        //// scale to create the illusion of such jump.
+        ///</summary>
+        ///<param name="t">Transform component of the player</param>
+        ///<param name="scale">Size coeficient of the player</param>
         public static void JumpTopdown(Transform t,float scale)
         {
             t.localScale =new Vector3(scale,scale,1.0f);
+        }
+        
+        ///<summary>
+        /// Checks the distance to the player in order to make the enemy chase him/her
+        ///</summary>
+        ///<param name="enemyTransform">Transform component of the enemy</param>
+        ///<param name="target">Transform component of the player</param>
+        ///<param name="chaseRadius">The distance from which the enemy will begin to chase the player</param>
+        ///<param name="moveSpeed">The coeficient of the enemy's speed</param>
+        public static void CheckDistance(Transform enemyTransform, Transform target, float chaseRadius, float moveSpeed)
+        {
+            if(target)
+            {    
+                if (Vector3.Distance(target.position, enemyTransform.position) <= chaseRadius)
+                {
+                    enemyTransform.position = Vector3.MoveTowards(enemyTransform.position, target.position, moveSpeed * Time.deltaTime);
+                }
+            }
         }
     }
 }

@@ -101,7 +101,7 @@ MonoBehaviour:
   baseAttack: 100000
   moveSpeed: 275
   target: {fileID: 0}
-  chaseRadius: 5000
+  chaseRadius: 2500
   attackRadius: 10
   homePosition: {fileID: 0}
 --- !u!61 &826695208425223678

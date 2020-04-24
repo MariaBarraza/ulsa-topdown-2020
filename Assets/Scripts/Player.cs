@@ -78,5 +78,5 @@ public class Player : Character2D
             Destroy(other.gameObject);
         }
     }
-
+    
 }
