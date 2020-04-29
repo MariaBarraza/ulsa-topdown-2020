@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.ulsa.platform2d-utils-package": "https://github.com/joseatrejos/platform2d-utils-package.git",
+    "com.joseatrejos.2d-utils": "https://github.com/joseatrejos/platform2d-utils-package.git",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.cinemachine": "2.5.0",
     "com.unity.collab-proxy": "1.2.16",
@@ -46,8 +46,8 @@
     "com.unity.modules.xr": "1.0.0"
   },
   "lock": {
-    "com.ulsa.platform2d-utils-package": {
-      "hash": "80d72ec83527b9b6b2f28bf5f357f1a46849c14c",
+    "com.joseatrejos.2d-utils": {
+      "hash": "101af4ab4a3061b81cf54544caba739f5efa0453",
       "revision": "HEAD"
     }
   }
